@@ -1,0 +1,68 @@
+[x]	session/legislation	views/seja/zakonodaja.ejs
+[x]	session/agenda-items	views/seja/dnevni-red.ejs
+[x]	vote/single	views/seja/glasovanje.ejs
+[x]	session/tfidf	views/seja/transkript.ejs
+[x]	session/speeches	views/seja/transkript.ejs
+[x]	session/minutes	views/seja/zapisnik.ejs
+[x]	session/votes	views/seja/glasovanja.ejs
+[x]	group/speeches	views/poslanska-skupina/govori.ejs
+[x]	group/tfidf	views/poslanska-skupina/govori.ejs
+[ ]	group/vocabulary-size	views/poslanska-skupina/govori.ejs
+[ ]	group/style-scores	views/poslanska-skupina/govori.ejs
+[x]	group/basic-information	views/poslanska-skupina/pregled.ejs
+[ ]	group/monthly-vote-attendance	views/poslanska-skupina/pregled.ejs
+[ ]	group/number-of-introduced-amendments	views/poslanska-skupina/pregled.ejs
+[x]	group/number-of-questions	views/poslanska-skupina/pregled.ejs
+[x]	group/vote-attendance	views/poslanska-skupina/pregled.ejs
+[x]	group/questions	views/poslanska-skupina/pregled.ejs
+[x]	group/votes	views/poslanska-skupina/glasovanja.ejs
+[ ]	group/most-votes-in-common	views/poslanska-skupina/glasovanja.ejs
+[ ]	group/least-votes-in-common	views/poslanska-skupina/glasovanja.ejs
+[x]	group/deviation-from-group	views/poslanska-skupina/glasovanja.ejs
+[x]	group/discord	views/poslanska-skupina/glasovanja.ejs
+[x]	misc/search	views/_partials/search.ejs
+[x]	misc/members	views/landing/poslanci.ejs
+[x]	misc/basic-information	views/landing/index.ejs
+[x]	misc/search	views/landing/index.ejs
+[ ]	misc/promoted-legislation	views/landing/index.ejs
+[x]	misc/last-session	views/landing/index.ejs
+[x]	misc/groups	views/landing/poslanske-skupine.ejs
+[x]	legislation/single	views/zakonodaja/zakon.ejs
+[x]	misc/legislation	views/zakonodaja/index.ejs
+[x]	misc/sessions	views/seje/index.ejs
+[x]	misc/search	views/seje/isci/index.ejs
+[ ]	search/speeches	views/seje/isci/index.ejs
+[x]	search/minutes	views/seje/isci/index.ejs
+[ ]	search/legislation	views/seje/isci/index.ejs
+[x]	search/votes	views/seje/isci/index.ejs
+[x]	search/usage-through-time-in-agenda-items	views/seje/isci/index.ejs
+[ ]	search/most-used-by-people	views/seje/isci/index.ejs
+[ ]	search/usage-by-group	views/seje/isci/index.ejs
+[x]	person/basic-information	views/poslanec/zupan.ejs
+[ ]	person/recent-activity	views/poslanec/zupan.ejs
+[ ]	person/speeches	views/poslanec/zupan.ejs
+[ ]	person/tfidf	views/poslanec/zupan.ejs
+[x]	person/speeches	views/poslanec/govori.ejs
+[x]	person/tfidf	views/poslanec/govori.ejs
+[x]	person/number-of-spoken-words	views/poslanec/govori.ejs
+[x]	person/average-number-of-speeches-per-session	views/poslanec/govori.ejs
+[ ]	person/vocabulary-size	views/poslanec/govori.ejs
+[ ]	person/style-scores	views/poslanec/govori.ejs
+[x]	person/basic-information	views/poslanec/pregled.ejs
+[x]	person/recent-activity	views/poslanec/pregled.ejs
+[ ]	person/monthly-vote-attendance	views/poslanec/pregled.ejs
+[x]	person/questions	views/poslanec/pregled.ejs
+[x]	person/number-of-questions	views/poslanec/pregled.ejs
+[x]	person/vote-attendance	views/poslanec/pregled.ejs
+[x]	person/memberships	views/poslanec/pregled.ejs
+[x]	person/votes	views/poslanec/glasovanja.ejs
+[ ]	person/most-votes-in-common	views/poslanec/glasovanja.ejs
+[ ]	person/least-votes-in-common	views/poslanec/glasovanja.ejs
+[x]	person/deviation-from-group	views/poslanec/glasovanja.ejs
+[x]	tool/comparator	views/orodja/primerjalnik-glasovanj.ejs
+[x]	tools/notifications	views/orodja/obvestila.ejs
+[x]	tool/compass	views/orodja/parlamentarni-kompas.ejs
+[x]	tools/unity	views/orodja/enotnost.ejs
+[x]	tool/word-groups	views/orodja/skupine-besed.ejs
+[x]	misc/search	views/error/404.ejs
+[x]	misc/search	views/error/500.ejs
