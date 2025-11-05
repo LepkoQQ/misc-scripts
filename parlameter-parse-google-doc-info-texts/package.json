@@ -1,0 +1,14 @@
+{
+  "name": "tmpparseinfo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "word-wrap": "^1.2.5"
+  }
+}
