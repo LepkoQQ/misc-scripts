@@ -28,7 +28,7 @@ Poslanske skupine razvrstimo glede na odstotek, ki je seštevek prisotnosti njih
 
 **GLASOVANJA**
 
-Za vsa glasovanja na posamezni seji preštejemo vse glasove (ZA, PROTI, VZDRŽANO) ter število poslank in poslancev, ki niso glasovali. Nato izpišemo rezultat glede na najpogostejši glas ali odsotnost.
+Za vsa glasovanja na posamezni seji preštejemo vse glasove (ZA, PROTI, VZDRŽANI) ter število poslank in poslancev, ki niso glasovali. Nato izpišemo rezultat glede na najpogostejši glas ali odsotnost.
 
 Za pravilnost rezultatov glasovanja skrbimo po najboljših močeh, a je predvsem pri vzdržanih in odsotnih glasovih ne moremo zagotavljati. Prisotnost poslank in poslancev se na sejah DZ ne preverja na vsakem glasovanju, zato se lahko zgodi, da je bila oseba vzdržana, pa je zaradi manjka podatkov v dokumentu z rezultati glasovanja, ki ga uporabljamo kot vir, na Parlametru ta oseba prikazana kot odsotna (rezultat: ni glasoval oz. glasovala).
 
@@ -66,7 +66,7 @@ Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
 **Pregled vseh glasovanj, ki so se zgodila na izbrani seji.**
 
-Za vsa glasovanja na posamezni seji preštejemo vse glasove (ZA, PROTI, VZDRŽANO) ter število poslank in poslancev, ki niso glasovali. Nato izpišemo rezultat glede na najpogostejši glas ali odsotnost.
+Za vsa glasovanja na posamezni seji preštejemo vse glasove (ZA, PROTI, VZDRŽANI) ter število poslank in poslancev, ki niso glasovali. Nato izpišemo rezultat glede na najpogostejši glas ali odsotnost.
 
 Z iskalnikom lahko iščeš po naslovu glasovanja, s filtri pa izbereš prikaz samo sprejetih ali samo zavrnjenih glasovanj.
 
@@ -82,7 +82,7 @@ Za pravilnost rezultatov glasovanja skrbimo po najboljših močeh, a je predvsem
 
 Rezultat posameznega glasovanja ima tri različne izpise: na ravni poslank in poslancev, na ravni poslanskih skupin ter glede na stran vlade.
 
-Prvi zavihek omogoča pregled glasov poslank in poslancev, filtriranje glede na vrednost glasovnice (ZA, PROTI, VZDRŽANO, NI GLASA) ter iskanje posameznih poslank in poslancev. Poleg krožnega grafikona se izpisuje večinski glas DZ na tem glasovanju. "60 % ZA" npr. pomeni, da je ZA glasovalo 60 % vseh poslank in poslancev z glasovalno pravico na tem glasovanju.
+Prvi zavihek omogoča pregled glasov poslank in poslancev, filtriranje glede na vrednost glasovnice (ZA, PROTI, VZDRŽANI, ODSOTNI) ter iskanje posameznih poslank in poslancev. Poleg krožnega grafikona se izpisuje večinski glas DZ na tem glasovanju. "60 % ZA" npr. pomeni, da je ZA glasovalo 60 % vseh poslank in poslancev z glasovalno pravico na tem glasovanju.
 
 Drugi zavihek prikazuje glasove poslanskih skupin. Na koncu vsake vrstice je izpisan večinski glas poslanske skupine, gumbi z vrednostmi glasovnic pa odpirajo sezname poslank in poslancev, ki so oddali tak glas.
 
@@ -216,7 +216,7 @@ Za pravilnost rezultatov glasovanja skrbimo po najboljših močeh, a je predvsem
 
 **Seznam petih poslank in poslancev, ki najpogosteje glasujejo enako kot izbrana poslanka ali poslanec. Seznam je razvrščen glede na odstotek ujemanja od največjega proti najmanjšemu.**
 
-V analizo vključimo le tista glasovanja, na katerih sta glasovali obe primerjani osebi (ZA, PROTI ali VZDRŽANO). Odstotek ujemanja izračunamo tako, da število glasovanj, kjer sta obe osebi glasovali enako, delimo s skupnim številom glasovanj, kjer sta bili obe prisotni.
+V analizo vključimo le tista glasovanja, na katerih sta bili prisotni in glasovali obe primerjani osebi (ZA, PROTI, VZDRŽANO). Odstotek ujemanja izračunamo tako, da število glasovanj, kjer sta obe osebi glasovali enako, delimo s skupnim številom glasovanj, kjer sta bili obe prisotni.
 
 \* (spremenjen tekst)
 
@@ -224,19 +224,17 @@ V analizo vključimo le tista glasovanja, na katerih sta glasovali obe primerjan
 
 **Seznam petih poslank in poslancev, ki najmanjkrat glasujejo enako kot izbrana poslanka ali poslanec. Seznam je razvrščen glede na odstotek ujemanja od najmanjšega proti največjemu.**
 
-V analizo vključimo le tista glasovanja, na katerih sta glasovali obe primerjani osebi (ZA, PROTI ali VZDRŽANO). Odstotek ujemanja izračunamo tako, da število glasovanj, kjer sta obe osebi glasovali enako, delimo s skupnim številom glasovanj, kjer sta bili obe prisotni.
+V analizo vključimo le tista glasovanja, na katerih sta bili prisotni in glasovali obe primerjani osebi (ZA, PROTI, VZDRŽANO). Odstotek ujemanja izračunamo tako, da število glasovanj, kjer sta obe osebi glasovali enako, delimo s skupnim številom glasovanj, kjer sta bili obe prisotni.
 
 \* (spremenjen tekst)
 
-**Ujemanje s poslansko skupino**
-
-[*Ujemanje s poslansko skupino (info tekst)*](https://parlacards-slovenija.lb.djnd.si/person/deviation-from-group/?id=6038&showExportButton=true&locale=sl&template=share)
+[*Neujemanje s poslansko skupino (info tekst)*](https://parlacards-slovenija.lb.djnd.si/person/deviation-from-group/?id=6038&showExportButton=true&locale=sl&template=share)
 
 **Odstopanje poslanke ali poslanca od večinskega glasu lastne poslanske skupine v primerjavi s povprečno in najvišjo vrednostjo.**
 
-Za vsa glasovanja najprej izračunamo večinski glas vsake poslanske skupine. To je tisti glas, za katerega se je odločila večina njenih poslank in poslancev.
+Za vsa glasovanja najprej izračunamo večinski glas vsake poslanske skupine. To je tisti glas (ZA, PROTI, VZDRŽANI, ODSOTNI), za katerega se je odločila večina njenih poslank in poslancev.
 
-Nato za vsako poslanko ali poslanca ugotovimo, kateri poslanski skupini trenutno pripada, in za celotno obdobje članstva v tej skupini izračunamo odstotek ujemanja glasov. Višji kot je prikazan odstotek, večja je skladnost poslanke ali poslanca z lastno poslansko skupino.
+Nato za vsako poslanko ali poslanca ugotovimo, kateri poslanski skupini trenutno pripada. Odstotek neujemanja izračunamo tako, da število glasovanj, na katerih je oseba glasovala drugače od večinskega glasu, delimo s skupnim številom vseh glasovanj. Višji kot je prikazan odstotek, večje je razhajanje poslanke ali poslanca z lastno poslansko skupino.
 
 Rezultat prikažemo skupaj s povprečno in najvišjo vrednostjo.
 
@@ -250,7 +248,7 @@ Na seznam dodamo povezave do vseh govorov izbrane osebe, ki jih pridobivamo iz t
 
 \* (spremenjen tekst)
 
-[*Besede, ki jo/ga zaznamujejo (info tekst)*](https://parlacards-slovenija.lb.djnd.si/person/tfidf/?id=6038&showExportButton=true&locale=sl&template=share)
+[*Besede, ki zaznamujejo osebo (info tekst)*](https://parlacards-slovenija.lb.djnd.si/person/tfidf/?id=6038&showExportButton=true&locale=sl&template=share)
 
 **Izpis 10 besed in besednih zvez, ki jih oseba uporablja pogosteje kot ostale poslanke in poslanci.**
 
@@ -310,9 +308,13 @@ Prikaz števila poslank in poslancev v posamezni poslanski skupini.
 
 **PRISOTNOST NA GLASOVANJIH**
 
+**Seznam poslanskih skupin glede na prisotnost na glasovanjih**
+
 Povprečna prisotnost članic in članov posamezne poslanske skupine na vseh glasovanjih v tem mandatu.
 
 **ŠTEVILO POSLANSKIH VPRAŠANJ IN POBUD**
+
+**Seznam poslanskih skupin glede na število zastavljenih poslanskih vprašanj in pobud**
 
 Seštevek vseh poslanskih vprašanj in pobud, ki so jih vložile članice in člani posamezne poslanske skupine v tem mandatu.
 
@@ -321,6 +323,8 @@ Seštevek vseh poslanskih vprašanj in pobud, ki so jih vložile članice in čl
 Analiza enotnosti glasovanj za vsako poslansko skupino. Višji, kot je prikazan odstotek, bolj usklajeno so članice in člani skupine glasovali na glasovanjih v tem mandatu.
 
 **RAZNOLIKOST BESEDIŠČA**
+
+**Seznam poslanskih skupin glede na raznolikost besedišča**
 
 Primerjava koeficientov raznolikosti besedišča med poslanskimi skupinami. Višji rezultat pomeni bolj raznoliko besedišče, ki ga članice in člani skupine uporabljajo v svojih govorih.
 
@@ -334,7 +338,7 @@ Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
 [*Osnovne informacije (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/basic-information/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Pregled osnovnih informacij o poslanski skupini.**
+**Pregled osnovnih informacij o izbrani poslanski skupini.**
 
 Vsebine za to kartico pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/) in od služb za odnose z javnostmi posameznih poslanskih skupin, manjkajoče podatke pa najdemo na spletu.
 
@@ -342,7 +346,7 @@ Vsebine za to kartico pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si
 
 [*Št. poslanskih vprašanj in pobud (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/number-of-questions/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Število poslanskih vprašanj in pobud vseh članic in članov poslanske skupine v tem mandatu v primerjavi s povprečno in najvišjo vrednostjo.**
+**Število poslanskih vprašanj in pobud vseh članic in članov izbrane poslanske skupine v tem mandatu v primerjavi s povprečno in najvišjo vrednostjo.**
 
 Vprašanja in pobude pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
@@ -350,9 +354,9 @@ Vprašanja in pobude pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/
 
 [*Prisotnost na glasovanjih sej DZ (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/vote-attendance/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Prisotnost poslanske skupine na glasovanjih v primerjavi s povprečjem in najvišjo vrednostjo.**
+**Prisotnost izbrane poslanske skupine na glasovanjih v primerjavi s povprečjem in najvišjo vrednostjo.**
 
-Preštejemo vse oddane glasove (ZA, PROTI in VZDRŽANO) vseh članic in članov izbrane poslanske skupine, nato pa to število delimo s številom vseh glasov, ki bi jih skupina lahko oddala. Rezultat izrazimo v odstotkih in ga primerjamo s povprečjem in najvišjo vrednostjo. 
+Preštejemo vse oddane glasove vseh članic in članov izbrane poslanske skupine, nato pa to število delimo s številom vseh glasov, ki bi jih skupina lahko oddala. Rezultat izrazimo v odstotkih in ga primerjamo s povprečjem in najvišjo vrednostjo. 
 
 Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
@@ -360,7 +364,11 @@ Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
 [*Prisotnost skozi čas na plenarnih sejah DZ (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/monthly-vote-attendance/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Prisotnost poslanske skupine na glasovanjih na plenarnih sejah DZ skozi čas.**
+**Prisotnost izbrane poslanske skupine na glasovanjih na plenarnih sejah DZ skozi čas.**
+
+Za vsak mesec posebej preštejemo vse oddane glasove vseh članic in članov izbrane poslanske skupine, nato pa to število delimo s številom vseh glasov, ki bi jih skupina v tistem mesecu lahko oddala. Rezultat izrazimo v odstotkih in ga prikažemo na grafu.
+
+Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
 
 \* (spremenjen tekst)
 
@@ -376,9 +384,9 @@ Vprašanja in pobude pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/
 
 [*Glasovanja (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/votes/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Pregled vseh glasovanj in večinskega glasu poslanske skupine**
+**Pregled vseh glasovanj in večinskega glasu izbrane poslanske skupine**
 
-Za vsako glasovanje na seji preštejemo vse glasove (ZA, PROTI, VZDRŽANO) ter število poslank in poslancev, ki niso glasovali. Na podlagi najpogostejšega glasu ali odsotnosti nato izpišemo končni rezultat.
+Za vsako glasovanje na seji preštejemo vse glasove (ZA, PROTI, VZDRŽANI) ter število poslank in poslancev, ki niso glasovali. Na podlagi najpogostejšega glasu ali odsotnosti nato izpišemo končni rezultat.
 
 Z iskalnikom lahko iščeš po naslovu glasovanja.
 
@@ -390,9 +398,9 @@ Za pravilnost rezultatov glasovanja skrbimo po najboljših močeh, a je predvsem
 
 [*Največkrat glasujejo enako (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/most-votes-in-common/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Seznam petih poslank in poslancev, ki najpogosteje glasujejo enako kot večina v poslanski skupini. Razvrščeni so glede na odstotek ujemanja od največjega proti najmanjšemu.**
+**Seznam petih poslank in poslancev, ki najpogosteje glasujejo enako kot večina v izbrani poslanski skupini. Razvrščeni so glede na odstotek ujemanja od največjega proti najmanjšemu.**
 
-Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PROTI ali VZDRŽANO), torej tisti glas, za katerega se je odločilo največ njenih članov in članic. Glasovanja, kjer je odsotna celotna poslanska skupina, umaknemo iz analize.
+Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PROTI, VZDRŽANI, ODSOTNI), torej tisti glas, za katerega se je odločilo največ njenih članov in članic. Glasovanja, kjer je odsotna celotna poslanska skupina, umaknemo iz analize.
 
 Nato izračunamo odstotek ujemanja med rezultati glasovanj poslanske skupine in rezultati vseh poslank in poslancev tega sklica DZ. To storimo tako, da število glasovanj, kjer je posamezna oseba glasovala enako kot večina v skupini, delimo s skupnim številom vseh glasovanj, na katerih sta bila prisotna tako oseba kot vsaj ena članica oz. član skupine. Če takšnih glasovanj ni, je ujemanje 0 %.
 
@@ -400,21 +408,23 @@ Nato izračunamo odstotek ujemanja med rezultati glasovanj poslanske skupine in 
 
 [*Najmanjkrat glasujejo enako (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/least-votes-in-common/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Seznam petih poslank in poslancev, ki najmanjkrat glasujejo enako kot večina v poslanski skupini. Razvrščeni so glede na odstotek ujemanja od najmanjšega proti največjemu.**
+**Seznam petih poslank in poslancev, ki najmanjkrat glasujejo enako kot večina v izbrani poslanski skupini. Razvrščeni so glede na odstotek ujemanja od najmanjšega proti največjemu.**
 
-Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PROTI ali VZDRŽANO), torej tisti glas, za katerega se je odločilo največ njenih članov in članic. Glasovanja, kjer je odsotna celotna poslanska skupina, umaknemo iz analize.
+Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PROTI, VZDRŽANI, ODSOTNI), torej tisti glas, za katerega se je odločilo največ njenih članov in članic. Glasovanja, kjer je odsotna celotna poslanska skupina, umaknemo iz analize.
 
 Nato izračunamo odstotek ujemanja med rezultati glasovanj poslanske skupine in rezultati vseh poslank in poslancev tega sklica DZ. To storimo tako, da število glasovanj, kjer je posamezna oseba glasovala enako kot večina v skupini, delimo s skupnim številom vseh glasovanj, na katerih sta bila prisotna tako oseba kot vsaj ena članica oz. član skupine. Če takšnih glasovanj ni, je ujemanje 0 %.
 
 \* (spremenjen tekst)
 
-**Ujemanje s poslansko skupino**
+[*Neujemanje s poslansko skupino (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/deviation-from-group/?id=138&showExportButton=true&locale=sl&template=share)
 
-[*Ujemanje s poslansko skupino (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/deviation-from-group/?id=138&showExportButton=true&locale=sl&template=share)
+**Seznam članic in članov izbrane poslanske skupine, razvrščen glede na to, kako pogosto glasujejo drugače kot večina v poslanski skupini. Večja kot je vrednost, manjše je ujemanje.**
 
-**Seznam članic in članov poslanske skupine, razvrščen glede na to, kako pogosto glasujejo enako kot večina v poslanski skupini. Večja kot je vrednost,** 
+Za vsako glasovanje najprej izračunamo večinski glas izbrane poslanske skupine (ZA, PROTI, VZDRŽANI, ODSOTNI), torej tisti glas, za katerega se je odločilo največ njenih članov in članic.
 
-Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PROTI ali VZDRŽANO), torej tisti glas, za katerega se je odločilo največ njenih članov in članic.
+Nato za vsako osebo izračunamo odstotek neujemanja tako, da število glasovanj, na katerih je glasovala drugače od večinskega glasu, delimo s skupnim številom vseh glasovanj. Višji kot je prikazan odstotek, večje je razhajanje članice ali člana z lastno poslansko skupino.
+
+Rezultati so na seznamu razvrščeni od največjega odstopanja proti najmanjšemu.
 
 \* (spremenjen tekst)
 
@@ -422,9 +432,9 @@ Za vsako glasovanje najprej izračunamo večinski glas poslanske skupine (ZA, PR
 
 **Enotnost izbrane poslanske skupine na glasovanjih v primerjavi s povprečno in najvišjo stopnjo enotnosti med vsemi poslanskimi skupinami.**
 
-Pri vsakem glasovanju za vsako poslansko skupino najprej izračunamo, koliko članic in članov je oddalo katero glasovnico (ZA, PROTI, NI GLASU, VZDRŽANO). Nato izračunamo odstotek tistih, ki so glasovali za večinsko izbiro. Tako dobimo mero enotnosti oz. odstotek poslank in poslancev, ki so se strinjali z večinskim glasom.
+Pri vsakem glasovanju za vsako poslansko skupino najprej izračunamo, koliko članic in članov je oddalo katero glasovnico (ZA, PROTI, VZDRŽANI, ODSOTNI). Nato izračunamo odstotek tistih, ki so glasovali za večinsko izbiro. Tako dobimo mero enotnosti oz. odstotek poslank in poslancev, ki so se strinjali z večinskim glasom.
 
-Na podlagi rezultatov individualnih glasovanj izračunamo povprečni odstotek nestrinjanja, ki ga prikažemo v kartici.
+Na podlagi rezultatov individualnih glasovanj izračunamo povprečni odstotek strinjanja, ki ga prikažemo v kartici.
 
 \* (spremenjen tekst)
 
@@ -438,7 +448,7 @@ Na seznam dodamo povezave do vseh govorov članic in članov izbrane poslanske s
 
 [*Besede, ki jih zaznamujejo (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/tfidf/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Izpis 10 besed in besednih zvez, ki jih poslanska skupina uporablja pogosteje kot ostale poslanske skupine.**
+**Izpis 10 besed in besednih zvez, ki jih izbrana poslanska skupina uporablja pogosteje kot ostale poslanske skupine.**
 
 Analizo izvajamo po statistiki [tf-idf](https://en.wikipedia.org/wiki/Tf-idf). Iz analize umikamo t. i. *stopwords*, torej tiste besede, ki se pojavljajo zelo pogosto in zato izgubijo svojo reprezentativnost (npr. povedati, napisati, bistvo ...), ali pa same zase ne nosijo nobenega pomena (npr. vezniki, mašila ...). Seznam teh besed je dostopen [tukaj](https://github.com/danesjenovdan/parladata/commit/3f6ee924ddd33ce71f392fefa4dde9c4fe64f82a).
 
@@ -448,7 +458,7 @@ Osnovo analize (korpus) predstavljajo vsi govori vseh poslank in poslancev, doku
 
 [*Raznolikost besedišča (info tekst)*](https://parlacards-slovenija.lb.djnd.si/group/vocabulary-size/?id=138&showExportButton=true&locale=sl&template=share)
 
-**Raznolikost besedišča v govorih članic in članov poslanske skupine v primerjavi s povprečno in najvišjo vrednostjo.**
+**Raznolikost besedišča v govorih članic in članov izbrane poslanske skupine v primerjavi s povprečno in najvišjo vrednostjo.**
 
 Za izračun najprej preštejemo unikatne besede in število vseh izgovorjenih besed članic in članov izbrane poslanske skupine. Potem preštejemo, kolikokrat se vsaka unikatna beseda pojavi, in unikatne besede razdelimo v kategorije glede na število ponovitev (združimo besede, ki se ponovijo enkrat, dvakrat, trikrat itd.).
 
@@ -498,6 +508,6 @@ V tej analizi prikažemo enotnost glasovanj v izbrani skupini (državni zbor, ko
 
 Na vrhu kartice lahko s klikom na želeni filter izbereš opazovano skupino, telo, kjer je potekalo glasovanje (DZ ali matična delovna telesa), in časovno obdobje, rezultate pa razvrščaš po stopnji enotnosti – bodisi od največje proti najmanjši bodisi obratno.
 
-Enotnost za posamezno glasovanje izračunamo tako, da najprej ugotovimo večinski glas znotraj izbrane skupine (ZA, PROTI, VZDRŽAN ali ODSOTEN). Nato preštejemo, koliko poslank in poslancev je glasovalo v skladu s to večino, to število pa delimo s skupnim številom vseh članic in članov v tej skupini. Tako dobimo delež poslank in poslancev v izbrani skupini, katerih glas ustreza večinski izbiri. Če so torej pri posameznem glasovanju vsi glasovi pripadali isti izbiri, je enotnost 100 %, če pa so bili glasovi razpršeni med več možnosti, je enotnost ustrezno nižja.
+Enotnost za posamezno glasovanje izračunamo tako, da najprej ugotovimo večinski glas znotraj izbrane skupine (ZA, PROTI, VZDRŽANI, ODSOTNI). Nato preštejemo, koliko poslank in poslancev je glasovalo v skladu s to večino, to število pa delimo s skupnim številom vseh članic in članov v tej skupini. Tako dobimo delež poslank in poslancev v izbrani skupini, katerih glas ustreza večinski izbiri. Če so torej pri posameznem glasovanju vsi glasovi pripadali isti izbiri, je enotnost 100 %, če pa so bili glasovi razpršeni med več možnosti, je enotnost ustrezno nižja.
 
 Analiza vključuje vsa glasovanja v tekočem sklicu državnega zbora. Podatke pridobivamo s spletnega mesta [DZ RS](https://www.dz-rs.si/).
